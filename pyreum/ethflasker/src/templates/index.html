@@ -1,0 +1,28 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Token Balance</h1>
+    <p>Address: <input type="text" id="addressInput" placeholder="Enter Ethereum address here"></p>
+    <button onclick="fetchBalance()">Check Balance</button>
+    <p id="balanceDisplay">Balance will be shown here</p>
+
+    <script>
+        function fetchBalance() {
+            var address = document.getElementById('addressInput').value;
+            fetch('/balance/' + address)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('balanceDisplay').innerText = 'Balance: ' + data.balance;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
