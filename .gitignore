@@ -7,7 +7,7 @@
 *.seed
 *.dyn
 *.state
-todo
+
 # Python environment variables
 pyreum/venv/
 

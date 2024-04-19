@@ -1,0 +1,35 @@
+Smart Contract Interaction:
+Project: Create a simple web interface using Flask or Django that interacts with a smart contract deployed on Ethereum's testnet.
+Goal: Learn how to use web3.py to connect to Ethereum, read data from a contract, and send transactions.
+✓ Completed: Created a smart contract for an ERC-20 token, deployed it to the Sepolia Ethereum testnet, and interacted with it using web3.py.
+Skills Gained: Connecting to Ethereum, reading data from a contract, and the basics of transaction sending.
+
+
+Token Creation and Transfer:
+Project: Deploy your own ERC-20 token (a standard for fungible tokens) using Python scripts, and build functionalities to transfer tokens between addresses.
+Goal: Understand the basics of token creation and handling token transfers via smart contracts.
+✓ Completed: Smart contract deployed our own ERC-20 token. Also learned how tokens are created (minted) and the general process for transferring them, not have implemented a transfer functionality yet.
+Skills Gained: Basics of token creation and the theoretical process of handling token transfers.
+
+
+Decentralized Application (DApp):
+Project: Build a DApp that allows users to vote on various options stored in a smart contract.
+Goal: Get practical experience with the full stack of web3 technologies, integrating a frontend with blockchain operations.
+✓ Completed: Built the foundational parts of a DApp by combining a smart contract with a Flask web application that serves a frontend to interact with the blockchain.
+Skills Gained: Integrating a frontend with blockchain operations, albeit at a basic level.
+
+
+**PENDING**
+Event Handling and Notifications:
+Project: Set up a service that listens for specific events emitted by a smart contract (like transfers, votes, etc.) and notifies users via email or a web interface.
+Goal: Learn how to work with blockchain events and real-time data processing.
+
+Integrate IPFS:
+Project: Store data or transaction records securely on IPFS (InterPlanetary File System) and link them with your blockchain operations.
+Goal: Explore decentralized storage solutions and understand how they can be integrated with Ethereum.
+
+Crypto Wallet Basics:
+Project: As a precursor to a full wallet, start by creating a script that can generate new Ethereum addresses, manage private keys securely, and make simple transactions.
+Goal: Lay the foundational knowledge required for building a more complex wallet system later.
+Basic Understanding: Got the basics down by interacting with Ethereum addresses and smart contracts.
+Next Steps: Expand on this by adding functionality to generate new addresses, manage private keys more securel and create/sign transactions programmatically.
