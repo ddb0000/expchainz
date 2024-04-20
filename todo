@@ -28,7 +28,7 @@ Integrate IPFS:
 Project: Store data or transaction records securely on IPFS (InterPlanetary File System) and link them with your blockchain operations.
 Goal: Explore decentralized storage solutions and understand how they can be integrated with Ethereum.
 
-Crypto Wallet Basics:
+Crypto Wallet Basics :
 Project: As a precursor to a full wallet, start by creating a script that can generate new Ethereum addresses, manage private keys securely, and make simple transactions.
 Goal: Lay the foundational knowledge required for building a more complex wallet system later.
 Basic Understanding: Got the basics down by interacting with Ethereum addresses and smart contracts.
